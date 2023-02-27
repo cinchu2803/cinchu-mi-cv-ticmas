@@ -37,8 +37,8 @@ padding: 40px;
 }
 .texto_cv .imagenperfil {
     position:static;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     overflow: hidden;
 
@@ -121,7 +121,35 @@ padding: 40px;
     margin-top: 5px;
     
 }
+.form_contacto {
+    color: wheat;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: left;
 
+}
+.form_contacto h4{
+   margin-top: 20px;
+    color: wheat;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.field label {
+    color: wheat;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.myButton {
+    color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+    .myButton:hover {
+    background: #1C6EA4; }
+    .myButton:active {
+    background: #144E75; }
 
 
 
@@ -135,12 +163,12 @@ padding: 40px;
         margin-bottom: 50px;
     }
     .titulo2{
-        font: bolder;
-        color: #180202;
+        text-decoration: underline solid rgb(68, 68, 68);
         letter-spacing: 2;
         margin-bottom: 10px;
-        text-decoration: underline solid rgb(68, 68, 68);
+        text-align: left;
     }
+    
     .p{
         color: #180202;
     }
@@ -151,13 +179,39 @@ padding: 40px;
         letter-spacing: 2;
 
     }
+    .sobremi h2{
+        text-decoration: underline solid rgb(68, 68, 68);
+        text-align: left;
+        box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+        padding: 10px;
+        letter-spacing: 2;
+    }
+
     .sobremi .p{
-        color: #180202
+        color: #180202;
+        
     }
     .uso_programas{
         color: #180202;
-        letter-spacing: 2;
         margin-bottom: 15px;
+    }
+    .uso_programas h2{
+        background-color: lightslategray;
+        margin-bottom: 30px;
+        text-decoration: underline solid rgb(68, 68, 68);
+        text-align: left;
+        box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+        padding: 10px;
+    }
+    .apt h2{
+        background-color: cornflowerblue;
+        text-decoration: underline solid rgb(29, 19, 19);
+        text-align: left;
+        box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+        padding: 10px;
     }
     
     .apt ul li{
@@ -168,7 +222,13 @@ padding: 40px;
         margin-top: 15px;
         letter-spacing: 2;
         }
-    
+       .card-content{
+        font: bold;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO0juHhN0sLQAb0Xa5sRrN1jLUdjQRVLcTfw&usqp=CAU);
+       }
+       .card-content p{
+        font: bold white;
+       }
     @media (max-width:1000px){
         .container{
             margin: 10px;
