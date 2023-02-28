@@ -11,11 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="icon" type="image/x-icon" href="/favicon-16x16.png">
+    <link rel="script" href="js/eventos.js"
 </head>
-<body>
+<script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+<body onpageshow="myFunction()">
+  <script>onbeforeprint="imprime()"</script>
+  
     <div class="container">
         <div class="lado_izq"> 
      <div class="texto_cv">
+      <h1 id="HoraActual"> </h1>
             <figure class="image is-128x128">
                 <img class="is-rounded" src="mister.jpg">
               </figure>
@@ -105,7 +113,13 @@
       <input class="input" type="number" placeholder="Ingrese su numero de celular" required>
     </div>
   </div>
-  <div class="myButton">Enviar Formulario</div>
+  <button>Enviar Formulario</button>
+<script>
+const button = document.querySelector("button");
+const text = document.querySelector(".text");
+
+button.addEventListener("click", () => alert("Pronto nos pondremos en contacto"));
+</script>
   
       </div>
  <div class="lado_derecho">
@@ -188,11 +202,16 @@
           <div>
 
             <footer>
-              <div class="myButton">DESCARGAR A PDF</div>
+              <div class="pdf"><button><p>Descargar a pdf></p></button>
+              </div>
               
             </footer>
           </div>
     </div>
-    
+    <script>
+      function myFunction() {
+        alert("BIENVENIDOS!");
+      }
+      </script>
 </body>
 </html>

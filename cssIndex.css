@@ -144,7 +144,7 @@ padding: 40px;
     margin-bottom: 20px;
     text-align: left;
 }
-.myButton {
+button {
     color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
     .myButton:hover {
     background: #1C6EA4; }
@@ -226,9 +226,16 @@ padding: 40px;
         font: bold;
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO0juHhN0sLQAb0Xa5sRrN1jLUdjQRVLcTfw&usqp=CAU);
        }
-       .card-content p{
+       .card-content{
         font: bold white;
        }
+       .pdf p{
+        color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+        .myButton:hover {
+        background: #1C6EA4; }
+        .myButton:active {
+        background: #144E75; }
+    
     @media (max-width:1000px){
         .container{
             margin: 10px;
